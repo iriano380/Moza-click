@@ -21,13 +21,13 @@ header {
     gap: 48px;
 }
 
-#nav_item {
+.nav_item a {
     text-decoration: none;
     color: orange;
     font-weight: 600;
 }
 
-#nav_item:active a {
+.nav_item:active a {
     color: #2a404f;
     border-bottom: 3px solid orange;
 }
