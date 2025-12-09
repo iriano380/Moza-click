@@ -1,1 +1,33 @@
+header {
+    width: 100%;
+    padding: 28px 8%;
+}
 
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav_logo {
+    font-size: 24px;
+    color: #2a404f;
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+#nav_item {
+    text-decoration: none;
+    color: orange;
+    font-weight: 600;
+}
+
+#nav_item:active a {
+    color: #2a404f;
+    border-bottom: 3px solid orange;
+}
